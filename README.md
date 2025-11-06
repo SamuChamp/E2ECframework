@@ -9,6 +9,8 @@ E2EC is an end-to-end coding framework that addresses the incompatibility betwee
 - *End-to-end trainability*: Using policy gradient optimization across non-differentiable operations, e.g., sampling and channel with digital modulation
 - *Semantic-oriented transmission*: Minimizing semantic distortion over noisy channels
 
+Also, this framework successfully establishs a non-autoregressive variable-length encoder without introducing additional encoding delay.
+
 ## Key Features
 - *Structural Decomposition*: Separate design of code length (`f_l`) and content (`f_z`) to enhance flexibility and coding efficiency for achieving information-theoretic bound
 - *One-to-One Embedding*: Learned embeddings for each bit position to enable semantic reconstruction

@@ -95,9 +95,8 @@ elif args.train:
             # for convergence speedup and numerical stability.
             # MI: mutual information of continuous ver. 
             # Dc: semantic distortion of continuous ver.
-            # KD: symbol grounding technique as T. Lin's NIPS 2021:
-            # "learning to ground multi-agent communication with autoencoders", 
-            # a.k.a. a type of knowledge distillation.
+            # KD: symbol grounding technique with knowledge distillation, where the grouding follows T. Lin's NIPS 2021:
+            # "learning to ground multi-agent communication with autoencoders".
             # H: entropy of length distribution, entropy regularization for policy gradient.
             yhc = de.decode_c(zc)
             MI = MI_est(zc, p_zc)

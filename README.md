@@ -116,3 +116,6 @@ E2ECframework/
 
 ### Channel
 - *Binary Symmetric Channel (BSC)*: Bit-flipping with error probability `p_e`
+
+## Baselines
+The baselines including RDBO and digital deep-JSCC are implemented in https://github.com/X-fengzi/DeepJSCC.git

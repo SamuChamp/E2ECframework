@@ -2,6 +2,9 @@
 
 This repository contains the PyTorch implementation of the paper ***Variable-Length End-to-End Joint Source-Channel Coding for Semantic Communication*** submitted to IEEE ICC 2026.
 
+*Preprint:* [arXiv:2511.07826](https://arxiv.org/pdf/2511.07826)  
+*Venue:* Under review at IEEE ICC 2026.
+
 ## Overview 
 
 E2EC is an end-to-end coding framework that addresses the incompatibility between existing joint source-channel coding (JSCC) schemes and digital communication systems. The framework enables:
